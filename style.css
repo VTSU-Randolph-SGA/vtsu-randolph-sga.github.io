@@ -1,0 +1,31 @@
+html {
+	overflow-y: scroll;
+}
+
+body {
+	font-family: Verdana;
+	background-color: #3A3A3A;
+	color: #ffffff;
+	margin: auto;
+	max-width: 1200px;
+	text-align: center;
+	overflow-x: hidden;
+
+}
+
+header {
+	style: bold;
+	background-color: #222222;
+	color: #0FC01B;
+}
+
+div.pagecontent {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	min-height: 100svh;
+}
+
+footer {
+	margin-top: auto;
+}
